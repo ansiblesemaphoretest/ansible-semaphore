@@ -1,5 +1,7 @@
 ---
+
 - hosts: all
+  gathering facts: false
   become: true
   tasks:
     - name: Print OS Info
